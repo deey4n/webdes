@@ -1,0 +1,142 @@
+
+body{
+    margin:0;
+    padding:0;
+    background-image: linear-gradient(to right, black, #14312F);
+}
+
+nav{
+    width: 100%;
+    overflow: auto;
+    background:transparent;
+    margin-bottom: 20px;
+
+}
+
+
+ul{
+    padding:0;
+    margin: 0 0 0 250px;
+    list-style:none;
+}
+
+
+li{
+    float: right;
+    margin-right: 50px;
+}
+
+li a {
+    width: 100px;
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-family: arial;
+    color:white;
+    text-align: right;
+    border-radius: 30px;
+    float:right;
+    margin-right: -20px;
+    margin-bottom: 8.5px;
+    margin-top:10px;
+
+}
+nav .settings{
+    width:40px;
+    height:40px;
+    align-content: right;
+    margin-right: -100px;
+    margin-top:-30px;
+}
+
+li a:hover{
+    background:rgb(31, 31, 31);
+    color:#00FFF0
+}
+
+.logo img{
+    position:absolute;
+    margin-top:5px;
+    margin-left:30px;
+    width: 130px;
+    height: 130px;
+    margin-top: -10px;
+}
+
+.banner{
+    background-image: url(images/cover.png.jpg);
+    background-size:cover;
+    background-position: center center;
+    height: 450px;
+    padding:30px;
+}
+.banner h2{
+    color:white;
+    font-size:70px;
+    font-family:"michroma", sans-serif;
+    margin-left: auto;
+
+}
+.banner h4{
+    font-family:"Quicksand",sans-serif;
+    font-weight: 300;
+    color:white;
+    margin-left: auto;
+    margin-top: -170px;
+    font-size: 30px;
+    font-style: italic;
+}
+.pill{
+    font-size:22px;
+    font-family: "Quicksand", sans-serif;
+    padding:0.5em 1em;
+    border-radius: 30px;
+    border:none;
+    outline: none;
+    background-color: transparent;
+    color:white;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.pill:hover {
+    background:rgb(31, 31, 31);
+    color:#00FFF0
+}
+.pill--selected{
+    background: transparent;
+    color:#00FFF0;
+}
+.search{
+    
+    width:max-content;
+    display: flex;
+    align-items: center;
+    padding:12.5px;
+    border-radius: 10px;
+    background: white;
+    margin-left: 180px;
+    margin-top:-30px;
+
+}
+
+.search-input{
+    font-size: 16px;
+    font-family: "Quicksand", sans-serif;
+    font-style: italic;
+    color: black;
+    margin-left: 14px;
+    outline: none;
+    border:none;
+    background: transparent;
+    width:800px;
+    padding:10;
+    align-items: center;
+}
+
+.search form{
+    display:flex;
+    margin:0;
+}
+
+
+
